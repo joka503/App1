@@ -30,9 +30,6 @@ class SecondFragment : Fragment() {
     private lateinit var selectedCity: CityModel
     private lateinit var viewModel: ChosenCityViewModel
 
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
